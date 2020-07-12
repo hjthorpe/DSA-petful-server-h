@@ -5,16 +5,16 @@
 - This shelter is based on a first come first server basis, FOR THE ANIMALS NOT YOU YOU GREEDY HUMAN. You're adopiton options are limited to the pets that have had the longest stay at the shelter out of all the pets in the shelter at the time you are visiting. Please move onto the adoption page and decide if you would like to adopt one of the wonderful pets we currently have available to you. Additionally, you must wait your turn in line before you will be presented with the ability to adopt.
 
 ## heroku link:
-https://petful-server-bv.herokuapp.com/
+
+https://salty-atoll-27800.herokuapp.com/
 ## link to live app:
-https://petful-client-liard.now.sh/
+https://dsa-petful-client-h.vercel.app
 ## link to server repo:
-https://github.com/thinkful-ei-macaw/DSA-petful-VB-server
+https://github.com/hjthorpe/DSA-petful-server-h.git
 ## link to client repo:
-https://github.com/thinkful-ei-macaw/DSA-petful-VB-client
+https://github.com/hjthorpe/DSA-petful-client-h.git
 
-
-## Partners: Vendy Prum and Brannen Petit
+## Hannah Thorpe
 
 ### Tech-Stack:
 
@@ -30,11 +30,11 @@ https://github.com/thinkful-ei-macaw/DSA-petful-VB-client
 ### API Docs:
 
 - POST
-  - REQUEST: https://petful-server-bv.herokuapp.com/people
+  - REQUEST: https://salty-atoll-27800.herokuapp.com/people
   - allows user's to be added to the end of the line
   - RESPONSE: 201 OK
 - GET
-  - REQUEST: https://petful-server-bv.herokuapp.com/pets
+  - REQUEST: https://salty-atoll-27800.herokuapp.com/pets
   - Shows the two most current animals up for adopiton from the queue
   - RESPONSE: [ {dog:{
     age: 3,
@@ -55,12 +55,12 @@ https://github.com/thinkful-ei-macaw/DSA-petful-VB-client
     },}]
 - GET
 
-  - REQUEST: https://petful-server-bv.herokuapp.com/people
+  - REQUEST: https://salty-atoll-27800.herokuapp.com/people
   - Retrieves and updates the current people in line to adopt pets
   - RESPONE: ["Randy","Bubbles","Etc"]
 
 - DELETE
-  - REQUEST: https://petful-server-bv.herokuapp.com/pets
+  - REQUEST: https://salty-atoll-27800.herokuapp.com/pets
   - removes the most recently adopted pet from it's queue
   - RESPONSE: 204 No content
 
@@ -71,3 +71,4 @@ https://github.com/thinkful-ei-macaw/DSA-petful-VB-client
 - This app simulates the adoption process before the user can adopt an animal
 - This app provides the user feedback on the animal they chose to adopt
 - Once at the front of line, the user can see other's line up behind them in the queue
+
