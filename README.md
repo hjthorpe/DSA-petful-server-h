@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- This shelter is based on a first come first server basis, FOR THE ANIMALS NOT YOU YOU GREEDY HUMAN. You're adopiton options are limited to the pets that have had the longest stay at the shelter out of all the pets in the shelter at the time you are visiting. Please move onto the adoption page and decide if you would like to adopt one of the wonderful pets we currently have available to you. Additionally, you must wait your turn in line before you will be presented with the ability to adopt.
+- This shelter is based on a first come first server basis, FOR THE ANIMALS NOT YOU YOU GREEDY HUMAN. You're  options are limited to the pets that have had the longest stay at the shelter out of all the pets in the shelter at the time you are visiting. Please move onto the adoption page and decide if you would like to adopt one of the wonderful pets we currently have available to you. Additionally, you must wait your turn in line before you will be presented with the ability to adopt.
 
 ## heroku link:
 
@@ -35,7 +35,7 @@ https://github.com/hjthorpe/DSA-petful-client-h.git
   - RESPONSE: 201 OK
 - GET
   - REQUEST: https://salty-atoll-27800.herokuapp.com/pets
-  - Shows the two most current animals up for adopiton from the queue
+  - Shows the two most current animals up for  from the queue
   - RESPONSE: [ {dog:{
     age: 3,
     breed: 'Golden Retriever',
